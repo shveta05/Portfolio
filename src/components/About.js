@@ -8,12 +8,11 @@ export default class About extends Component {
 
             <div className="three columns">
 
-               <img className="profile-pic"  src="\Portfolio\public\images\png.webp" alt="" />
+               <img className="profile-pic"  src="/images/png.jpg" alt="" />
 
             </div>
 
             <div className="nine columns main-col">
-
                <h2>About Me</h2>
                <p>
                {

@@ -1,10 +1,10 @@
 let resumeData = {
-  "name": "Shveta",
+  "name": "Shveta Sirsat",
   
   "role": "Student",
     
   "roleDescription":
-    "I like dabbling in various parts of frontend development and like to learn about new technologies or simply play games in my free time.",
+    "I like dabbling in various parts of development and like to learn about new technologies or simply play chess in my free time.",
   
   "socialLinks": [
     {
@@ -19,29 +19,31 @@ let resumeData = {
     },
   ],
   
-  "aboutme": "I am currently a third year student at SGGSIE&t and pursuing my B.Tech from here.I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+  "aboutme": "I am currently a final year student pursuing my B.Tech in Information Technology at SGGSIE&T. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
   "address": "Nanded, Maharashtra, India",
   
   "education": [
     {
-      "UniversityName": "Shri Guru Gobind Singh Ji Institute of Engineering and Technology",
+      "UniversityName": "Shri Guru Gobind Singhji Institute of Engineering and Technology",
       "Branch": "Information Technology",
-      "Year": "Third Year"
+      "Year": "Final Year",
+      "CGPA/Percentage":"7.33"
         
     },{
       "YearOfPassing": "2024",
-        
     },
     {
       "UniversityName": "Sarosh Junior College",
-      "Branch":"HSC"
+      "Branch": "HSC",
+      "CGPA/Percentage":"64.77"
     },{
       "YearOfPassing": "2019"
         
     },
     {
       "UniversityName": "Sharda Vidya Mandir",
-      "Branch":"SSC"
+      "Branch": "SSC",
+      "CGPA/Percentage":"93"
         
     },{
       "YearOfPassing": "2017"
@@ -49,8 +51,16 @@ let resumeData = {
     }
   ],
     
-  "skillsDescription": "Your skills here",
   "skills": [
+    {
+      "skillname":"Java"
+    },
+    {
+      "skillname":"Python"
+    },
+    {
+      "skillname": "SQL"
+    },
     {
       "skillname": "HTML5"
     },
@@ -61,26 +71,22 @@ let resumeData = {
       "skillname": "Reactjs"
     },
     {
-      "skillname": "Problem Solving"
+      "skillname":"JavaScript"
+    },
+    {
+      "skillname":"ProblemSolving"
     },
     {
       "skillname":"DSA"
-    },
-    {
-      "skillname":"C++"
     }
-
     ],
-    "testimonials":[
+    "Projects":[
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical gul"
-      },
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical gul"
-      }
-    ]
+        "description":"SMS SPAM DETECTION SYSTEM",
+        "name":"An SMS spam detection system leveraging machine learning algorithms and web technologies. Implemented five distinct algorithms including Naive Bayes, Decision Tree, K-Nearest Neighbours (KNN), Random Forest, and Support Vector Machine (SVM) to accurately classify incoming messages as spam or legitimate.",
+        "url": "https://github.com/shveta05/SMS-SPAM-DETECTION"
+      } 
+  ] 
   }
   
   export default resumeData

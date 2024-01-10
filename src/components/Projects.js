@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
-export default class Testimonials extends Component {
+export default class Projects extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <section id="testimonials">
+      <section id="Projects">
         <div className="text-container">
           <div className="row">
             <div className="two columns header-col">
-              <h1><span>Client Testimonials</span></h1>
+              <h1><span> Projects</span></h1>
             </div>
             <div className="ten columns flex-container">
               <div className="flexslider">
                 <ul className="slides">
                   {
-                    resumeData.testimonials && resumeData.testimonials.map((item)=>{
+                    resumeData.Projects && resumeData.Projects.map((item)=>{
                       return(
                         <li>
                           <blockquote>
@@ -21,6 +21,7 @@ export default class Testimonials extends Component {
                             {item.description}
                             </p>
                             <cite>{item.name}</cite>
+                            <a href={item.url}>Project link </a>
                           </blockquote>
                         </li>
                       )
